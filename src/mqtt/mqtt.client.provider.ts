@@ -26,3 +26,8 @@ export const MqttClientProvider: Provider = {
     return mqttClient;
   },
 };
+
+export class TopicPublishingDTO {
+  topic: string;
+  message: string;
+}
